@@ -1,0 +1,45 @@
+.elCarrito:hover {
+    animation: moverCarrito 0.1s ease-in-out infinite;
+ }
+  
+@keyframes moverCarrito {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+
+.carritoP {
+    font-weight: 900;
+    color: white;
+    animation: cambiaColor 0.1s ease-in-out infinite;
+    text-align: center;
+    margin: 5px;
+   
+  }
+  
+  @keyframes cambiaColor {
+    0% {
+      color: #4d4670;
+    }
+    50% {
+      color: #bc5865;
+    }
+    100% {
+      color: #bcdefe;
+    }
+  }
+.elCarrito {
+    width: 3rem;
+    border-radius: 25%;
+    background-color: #bc5865;
+    padding: 15px;
+    margin: 10px;
+   
+    
+}

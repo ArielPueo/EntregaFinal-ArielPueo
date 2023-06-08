@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid #bcdefe;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.logoBrand {
+    width: 4rem;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
